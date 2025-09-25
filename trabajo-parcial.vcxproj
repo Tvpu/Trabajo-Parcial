@@ -116,16 +116,11 @@
     <ClInclude Include="Jugador.h" />
     <ClInclude Include="Jugador_Humano.h" />
     <ClInclude Include="Jugador_IA.h" />
-    <ClInclude Include="mapas.h" />
+    <ClInclude Include="mundo1.h" />
     <ClInclude Include="Mundos.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Enemigos.cpp" />
-    <ClCompile Include="Entidad.cpp" />
-    <ClCompile Include="Jugador.cpp" />
-    <ClCompile Include="Jugador_Humano.cpp" />
-    <ClCompile Include="Jugador_IA.cpp" />
-    <ClCompile Include="Mundos.cpp" />
+    <ClCompile Include="mundos.cpp" />
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
