@@ -32,9 +32,9 @@ public:
 
     //dibujos especificos
     void Dibujar_Humano() {
-        Console::SetCursorPosition(x, y); cout << char(219) << char(219) << char(219);
-        Console::SetCursorPosition(x, y + 1); cout << "/" << char(190) << "\\";
-        Console::SetCursorPosition(x, y + 2); cout << " " << char(226);
+        Console::SetCursorPosition(x + 1, y); cout << "O";
+        Console::SetCursorPosition(x, y + 1); cout << "/" << char(219) << "\\";
+        Console::SetCursorPosition(x, y + 2); cout << "/ \\";
     };
     void Dibujar_IA() {
         Console::SetCursorPosition(x, y); cout << char(219) << char(219) << char(219);
