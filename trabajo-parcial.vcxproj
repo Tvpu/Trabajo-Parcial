@@ -116,6 +116,7 @@
     <ClInclude Include="Jugador.h" />
     <ClInclude Include="Jugador_Humano.h" />
     <ClInclude Include="Jugador_IA.h" />
+    <ClInclude Include="mapas.h" />
     <ClInclude Include="Mundos.h" />
   </ItemGroup>
   <ItemGroup>
