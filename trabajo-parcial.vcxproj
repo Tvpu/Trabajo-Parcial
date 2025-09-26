@@ -116,9 +116,11 @@
     <ClInclude Include="Jugador.h" />
     <ClInclude Include="Jugador_Humano.h" />
     <ClInclude Include="Jugador_IA.h" />
+    <ClInclude Include="mundo1.h" />
     <ClInclude Include="Mundos.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="matrices.cpp" />
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

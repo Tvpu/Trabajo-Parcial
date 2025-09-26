@@ -58,7 +58,7 @@ void pruebas() {
 
 int main() {
 	Console::CursorVisible = false;
-	Console::SetWindowSize(120, 40);
+	Console::SetWindowSize(121, 41);
 
 	mundo1 *m1 = new mundo1();
 
